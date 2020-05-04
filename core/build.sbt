@@ -313,7 +313,7 @@ lazy val plugin =
       buildInfoPackage := "cloudflow.sbt",
       addSbtPlugin("se.marcuslonnberg" % "sbt-docker"          % "1.5.0"),
       addSbtPlugin("com.typesafe.sbt"  % "sbt-native-packager" % "1.3.25"),
-      addSbtPlugin("com.cavorite"      % "sbt-avro"            % "2.0.0"),
+      addSbtPlugin("com.cavorite"      % "sbt-avro"            % "2.0.4"),
       addSbtPlugin("com.julianpeeters" % "sbt-avrohugger"      % "2.0.0-RC22"),
       addSbtPlugin("com.lightbend.sbt" % "sbt-javaagent"       % "0.1.5"),
       addSbtPlugin("de.heikoseeberger" % "sbt-header"          % "5.2.0"),
