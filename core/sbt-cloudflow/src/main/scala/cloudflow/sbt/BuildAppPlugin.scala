@@ -17,7 +17,6 @@
 package cloudflow.sbt
 
 import java.io._
-import java.nio.charset.StandardCharsets._
 
 import spray.json._
 import sbt._
@@ -26,7 +25,6 @@ import sbt.Keys._
 import scala.util.control.NoStackTrace
 import cloudflow.sbt.CloudflowKeys._
 import cloudflow.blueprint.StreamletDescriptor
-import cloudflow.blueprint.StreamletDescriptorFormat._
 import cloudflow.blueprint.deployment.{ ApplicationDescriptor, CloudflowCR, Metadata, StreamletInstance }
 import cloudflow.blueprint.deployment.CloudflowCRFormat.cloudflowCRFormat
 
