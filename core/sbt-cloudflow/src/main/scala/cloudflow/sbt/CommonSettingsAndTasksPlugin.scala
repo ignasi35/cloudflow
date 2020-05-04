@@ -16,8 +16,6 @@
 
 package cloudflow.sbt
 
-import java.io.File
-
 import sbt.Keys._
 import sbt._
 import sbtavro.SbtAvro.autoImport._

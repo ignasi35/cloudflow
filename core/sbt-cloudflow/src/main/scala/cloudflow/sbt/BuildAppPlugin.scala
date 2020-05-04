@@ -73,8 +73,8 @@ object BuildAppPlugin extends AutoPlugin {
     // these streamlet descriptors have been generated from the `build` task
     // if they have not been generated we throw an exception and ask the user
     // to run the build
-    val log      = streams.value.log
-    val registry = cloudflowDockerRegistry.value.getOrElse(throw DockerRegistryNotSet)
+    val log = streams.value.log
+    val _   = cloudflowDockerRegistry.value.getOrElse(throw DockerRegistryNotSet)
 
     val imageToStreamletDescriptorsMaps: Map[ImageNameAndId, Map[String, StreamletDescriptor]] = allBuildAndPublish.value
     val streamletClassNamesToImageNameAndId: Map[String, ImageNameAndId] = imageToStreamletDescriptorsMaps
